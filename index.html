@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titan Fitness tu centro de entrenamiento</title>
+    <!-- Carga de fuentes de Google Fonts (Pacifico y Caveat) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Estilos generales */
+        body {
+            /* Imagen de fondo que ocupa toda la página - Placeholder oscuro para gimnasio */
+            background-image: url('https://placehold.co/1920x1080/333/fff?text=Titan+Fitness+Gym');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Asegura que la imagen de fondo cubra todo el viewport */
+            color: #333;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        /* Contenedor principal para centrar el contenido y mejorar la legibilidad sobre la imagen */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* H1 - Título principal: Pacifico, 50px, #D2691E, centrado */
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 50px;
+            color: #D2691E;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        /* H2 - Subtítulos: Caveat, 30px, #00008B */
+        h2 {
+            font-family: 'Caveat', cursive;
+            font-size: 30px;
+            color: #00008B;
+            border-bottom: 2px solid #00008B;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        /* H3 - Encabezados de sección: Arial, 25px, #008B8B */
+        h3 {
+            font-family: Arial, sans-serif;
+            font-size: 25px;
+            color: #008B8B;
+            margin-top: 25px;
+        }
+        
+        /* Párrafos y elementos de lista: Arial */
+        p, li {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Lista ordenada para la navegación */
+        ol {
+            padding-left: 20px;
+        }
+
+        ol li {
+            margin-bottom: 8px;
+        }
+        
+        /* Estilos de Enlaces */
+        a {
+            text-decoration: none;
+            color: #4682B4; /* Color por defecto */
+            transition: all 0.2s ease-in-out;
+        }
+
+        /* Enlaces Visitados: gris */
+        a:visited {
+            color: gray;
+        }
+
+        /* Enlaces al pasar el ratón (Hover): negrita, rojo */
+        a:hover {
+            font-weight: bold;
+            color: red;
+            text-decoration: underline;
+        }
+
+        /* Enlaces Activos (cuando se hace clic): verde */
+        a:active {
+            color: green;
+        }
+
+        /* Estilos de la Tabla: 33%, centrada, bordes brown, colapsados, fondo AntiqueWhite */
+        table {
+            width: 33%;
+            margin: 20px auto; /* Centrada */
+            border-collapse: collapse; /* Bordes colapsados */
+            background-color: AntiqueWhite;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            border: 2px solid brown; /* Todos los bordes color brown */
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #D2B48C;
+            color: #4B3A2C;
+            font-weight: bold;
+        }
+
+        /* Responsive para la tabla en dispositivos pequeños */
+        @media (max-width: 600px) {
+            table {
+                width: 95%; /* Ocupa casi todo el ancho en móviles */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- H1 Centrado y con fuente Pacifico -->
+        <h1>Titan Fitness tu centro de entrenamiento</h1>
+        
+        <!-- H2 de Navegación -->
+        <h2>Navegación Principal</h2>
+        
+        <!-- Lista Ordenada con Enlaces -->
+        <ol>
+            <li><a href="#quienes">Quienes somos</a></li>
+            <li><a href="#quehacemos">Qué hacemos</a></li>
+            <li><a href="#servicios">Clases y Servicios</a></li>
+            <li><a href="#novedades">Promociones</a></li>
+            <!-- ESTE ES EL ENLACE AL FORMULARIO.HTML -->
+            <li><a href="formulario.html">Solicita información</a></li>
+        </ol>
+
+        <!-- H3 y Párrafo de Quienes Somos -->
+        <h3 id="quienes">Quienes somos</h3>
+        <p>Titan Fitness es el gimnasio líder en tu ciudad, dedicado a transformar tu vida a través del ejercicio y la nutrición. Desde 2010, ofrecemos instalaciones de última generación y clases dirigidas por profesionales certificados. Nuestra misión es ayudarte a alcanzar tu máximo potencial físico.</p>
+        
+        <h3 id="quehacemos">Qué hacemos</h3>
+        <p>Ofrecemos equipos de cardio y pesas de alta gama, entrenamiento personalizado y una variedad de clases grupales. Contamos con una amplia sala de pesas libres, máquinas de resistencia guiada y un estudio de yoga y pilates.</p>
+        
+        <h3 id="servicios">Clases y Servicios</h3>
+        <p>Nuestros servicios incluyen evaluación física gratuita, planes de entrenamiento a medida, sauna y vestuarios de lujo. Las clases grupales más populares son Spinning, HIIT, Boxeo y Yoga. ¡Pregunta por nuestro programa de fidelidad!</p>
+
+        <h3 id="novedades">Promociones</h3>
+        <p>¡Presentamos nuestra nueva zona de entrenamiento funcional con jaulas de potencia y kettlebells! Además, si te inscribes este mes, obtienes un 20% de descuento en tu primera consulta nutricional. ¡Transforma tu cuerpo hoy mismo!</p>
+
+        <!-- H2 para la tabla -->
+        <h2>Horario de Clases Destacadas</h2>
+
+        <!-- Tabla de Ejemplo - Horario de Clases -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Clase</th>
+                    <th>Hora</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>HIIT (Alta Intensidad)</td>
+                    <td>19:00 - 20:00</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>Yoga Flow</td>
+                    <td>10:00 - 11:00</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>Spinning Extremo</td>
+                    <td>18:30 - 19:30</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>¡Te esperamos en Titan Fitness!</p>
+    </div>
+</body>
+</html>
